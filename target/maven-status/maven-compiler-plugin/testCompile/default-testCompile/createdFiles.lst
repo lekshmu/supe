@@ -1,0 +1,6 @@
+Runner_file\TestSuite.class
+StepDefinition\SuperAdmin_CRUD_positive_scenario.class
+StepDefinition\SuperAdmin_CURD_negative_scenarios.class
+StepDefinition\IT_Admin_CRUD_negative_scenarios.class
+StepDefinition\IT_Admin_CRUD_positive_scenarios.class
+Reusable_Functions\Generic_function.class

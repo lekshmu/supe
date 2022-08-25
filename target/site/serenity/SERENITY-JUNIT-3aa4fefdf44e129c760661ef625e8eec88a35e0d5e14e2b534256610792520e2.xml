@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="ITAdmin CRUD operations positive scenarios" skipped="0" tests="2" time="34.56" timestamp="2022-08-09 07:08:22"><testcase name="Validate that ITAdmin is able to view the Welcome page"/><testcase name="Validate that the user able to Login as IT Admin with valid credentials"/></testsuite>

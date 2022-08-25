@@ -1,0 +1,129 @@
+x,Field_Data_iteration1
+welcome_page_title,It's time to take control of your healthcare!
+login_email,"superadmin@mph.com,pradeep.it360@gmail.com,macbellit656@gmail.com,aryaachu1098@gmail.com"
+login_password,Password@123
+login_title,Sign in to your account
+itadmin_email,"macbellit656@gmail.com, intldev.macbell@gmail.com"
+itadmin_password,Password@123
+org_name,"Capss, Gizz"
+org_db,"99-477-7368, 886646,475"
+org_ein,"94-9579998, 335256, 485"
+unique_ein,999999999
+unique_db,999999999
+org_bus_con_no,"3111116711, 7756878909"
+org_email,"elaite@gmail.com, gizz@gmail.com"
+org_faxno,"4454444444, 6576879890"
+org_add_name,"gizz  block, Gzz adds"
+org_apt,Gizz 6
+org_street_add,Gizz street
+org_city_add,Gizz city
+org_zip,"45656, 87867"
+org_add_ano_add_busno,"2111111112, 774565, 6787"
+org_add_add_email,"elaite22@gmail.com, auttest,@gmail.com"
+org_add_add_faxno,"4444444445, 7345766, 767"
+org_add_add_name,Elaite address2
+org_add_add_apt,8
+org_add_add_streetadd,Elaite street2
+org_add_add_cityadd,city road
+org_add_add_zip,"45656, 457,45876"
+org_title,Your organizations
+superadmin_welcome_page_title,Organization
+org_edit_org_name,Capss Inc
+org_edit_org_db,34-385-2216
+org_edit_org_ein,56-3565566
+org_add_address_busno,3111111111
+org_add_address_email,sd@io.vo
+org_add_address_faxno,4444444444
+org_add_address_name,aut org
+org_add_address_apt,as
+org_add_address_street,zxc
+org_add_address_city,yui
+org_add_address_zip,67898
+org_add_address_title,Organization Name
+aff_name,aff2
+aff_db,"34-543-4480, 994522, 367"
+aff_ein,"55-5433382, 555533, 467"
+aff_busno,3111111112
+aff_email,aff1@gmail.com
+aff_faxno,3334444444
+aff_address_name,aff1 add
+aff_apt,aff1 12
+aff_street_address,aff1 street
+aff_city_address,aff1 city
+aff_zip,45612
+aff_add_ano_add_email,aff1@gmail.com
+aff_add_ano_add_busno,3111111113
+aff_add_ano_add_faxno,4334444444
+aff_add_ano_add_name,rty
+aff_add_ano_add_apt,10
+aff_add_ano_add_street,street1
+aff_add_ano_add_city,city1
+aff_add_ano_add_zip,56434
+lob_title,Manage LOBs
+lob_name,"err79, govtplan"
+lob_planid,njk10
+aff_edit_name,aff5
+aff_edit_email,aff5@gmail.com
+lob_planid_edit,er17 er79
+input_error,Invalid username or password.
+superadmin_users_Intl_fn,Arya
+superadmin_users_Intl_ln,Raj
+int_Fullname,Arya Raj
+superadmin_users_Intl_un,aryarajan.intl@gmail.com
+superadmin_users_Intl_pswd,Password@123
+supersdmin_users_comp_fn,Sidharth
+supersdmin_users_comp_ln,Sidhu
+supersdmin_users_comp_un,sidharth.compl@gmail.com
+superadmin_users_thirddev_fn,Vaishak
+superadmin_users_thirddev_ln,varun
+superadmin_users_thirddev_un,vaishak.thirddev@gmail.com
+gmail_un,"pradeep.it360@gmail.com,lekshmi.s@mpoweredhealth.com,riyafreddy37@gmail.com,miamilen.intl@gmail.com,henryhilary.comp@gmail.com"
+superadmin_user_fn,"Pradeep,Riya,Mia"
+superadmin_user_ln,"Vijay,Freddy,Milen"
+superaddmin_user_email,pradeep.it360@gmail.com
+itadmin_user_it_fn,Virat
+itadmin_user_it_ln,Varun
+itadmin_user_it_email,complauto178@gmail.com
+gmail_pwd,"Password@123,vighnesh,Password@123"
+gmail_search,mpoweredhealth-partner
+gmail_update_newpwd,Password@123
+gmail_update_conpwd,Password@123
+lob_title_it,Manage LOBs
+itadmin_fn,"Lekshmi,Riya,Mia,Henry"
+itadmin_ln,"s,Freddy,Milen,Hilary"
+itadmins_email,"lekshmi.s@mpoweredhealth.com,riyafreddy37@gmail.com,miamilen.intl@gmail.com,henryhilary.comp@gmail.com"
+users_title,Manage Users
+thirdparty_title,Welcome
+org_create_popup,Setup Organization
+org_edit_popup,Edit Organization details
+org_edit_success,Organization Name
+org_add_address_popup,Add Address
+org_edit_address_popup,Edit Address
+org_edit_address_success,Addresses
+aff_create_popup,Add Affiliate
+aff_create_success,Affiliate created successfully
+aff_edit_success,Affiliate updated successfully
+aff_edit_popup,Edit Affiliate
+org_add_success,Address created successfully
+org_add_edit_success,Address updated successfully
+Add_lob_title,Add LOB
+Add_lob_success,LOB created successfully
+LOB_details_title,LOB Details
+Edit_LOB_title,Edit LOB
+Edit_LOB_success,LOB updated successfully
+manual_data_load_config,Manual Data Load Configuration
+data_load_config_added,Data load configuration added
+data_load_config_edited,Data load configuration edited
+file_data_load_config,File Sensed Data Load Configuration
+time_load_config,Time Based Load Configuration
+pricelist_popup,Drag and drop document here or
+pricelist_success,File added successfully
+users_invitation_success,Invitation send successfully
+gmail_title,Sign in
+error_msg,DB already exist
+val_msg,This field is required
+val_msgg,Ein or Db already exist
+edit_val_msg,Organization Name
+itadmin_user,aryaachu1098@gmail.com
+itadmin_pass,Password@123
+it_member,Members

@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="14" failures="0" name="ITAdmin CRUD operations positive scenario" skipped="0" tests="16" time="41.96" timestamp="2022-08-08 11:32:11"><testcase name="ITAdmin launches the url"/><testcase name="Validate ITAdmin logins with valid admin credentials"/><testcase name="validate that superadmin is able to search an organization successfully"><error message="Unable to find element with locator By.xpath: //*[contains(text(),'jocker')]&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.0.0', revision: '3a21814679'&#10;System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'&#10;Driver info: driver.version: RemoteWebDriver&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.0.0', revision: '3a21814679'&#10;System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">Unable to find element with locator By.xpath: //*[contains(text(),'jocker')]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: unknown</error><system-err>Unable to find element with locator By.xpath: //*[contains(text(),'jocker')]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: unknown&#13;
+StepDefinition.IT_Admin_CRUD_positive_scenarios.enters_orgns_name_for_searching(IT_Admin_CRUD_positive_scenarios.java:137)&#13;
+✽.enters orgns name for searching(file:///C:/Users/AJIT%20SINGH%20PAWAR/OneDrive/Desktop/automation/Enterprice-superadmin/src/main/resources/Feature/IT_Admin_CRUD_positive_scenarios.feature:16)&#13;
+</system-err></testcase><testcase name="Validate that superadmin able to invite ITAdmin"><error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=103.0.5060.134)&#10;Build info: version: '4.0.0', revision: '3a21814679'&#10;System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [81c934e89bb668163edb9613871de7c6, findElement {using=xpath, value=//*[@id=&quot;root&quot;]/div/div[1]/div/div/div[2]/ul/li[3]/button/span[1]/span}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 81c934e89bb668163edb9613871de7c6&#10;Build info: version: '4.0.0', revision: '3a21814679'&#10;System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchWindowException">no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81c934e89bb668163edb9613871de7c6, findElement {using=xpath, value=//*[@id="root"]/div/div[1]/div/div/div[2]/ul/li[3]/button/span[1]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 81c934e89bb668163edb9613871de7c6
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: unknown</error><system-err>no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81c934e89bb668163edb9613871de7c6, findElement {using=xpath, value=//*[@id="root"]/div/div[1]/div/div/div[2]/ul/li[3]/button/span[1]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 81c934e89bb668163edb9613871de7c6
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: unknown&#13;
+Reusable_Functions.Generic_function.click(Generic_function.java:313)&#13;
+StepDefinition.IT_Admin_CRUD_positive_scenarios.users_page(IT_Admin_CRUD_positive_scenarios.java:153)&#13;
+✽.users page(file:///C:/Users/AJIT%20SINGH%20PAWAR/OneDrive/Desktop/automation/Enterprice-superadmin/src/main/resources/Feature/IT_Admin_CRUD_positive_scenarios.feature:20)&#13;
+</system-err></testcase><testcase name="Validate that user gets the invitation"><error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=103.0.5060.134)&#10;Build info: version: '4.0.0', revision: '3a21814679'&#10;System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [81c934e89bb668163edb9613871de7c6, executeScript {script=window.open(), args=[]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 81c934e89bb668163edb9613871de7c6&#10;Build info: version: '4.0.0', revision: '3a21814679'&#10;System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchWindowException">no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81c934e89bb668163edb9613871de7c6, executeScript {script=window.open(), args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 81c934e89bb668163edb9613871de7c6
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: unknown</error><system-err>no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81c934e89bb668163edb9613871de7c6, executeScript {script=window.open(), args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 81c934e89bb668163edb9613871de7c6
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: unknown&#13;
+StepDefinition.IT_Admin_CRUD_positive_scenarios.open_a_new_tab(IT_Admin_CRUD_positive_scenarios.java:221)&#13;
+✽.open a new tab(file:///C:/Users/AJIT%20SINGH%20PAWAR/OneDrive/Desktop/automation/Enterprice-superadmin/src/main/resources/Feature/IT_Admin_CRUD_positive_scenarios.feature:26)&#13;
+</system-err></testcase><testcase name="validate that user able to login with new credentials"><error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=103.0.5060.134)&#10;Build info: version: '4.0.0', revision: '3a21814679'&#10;System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [81c934e89bb668163edb9613871de7c6, getCurrentWindowHandle {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 81c934e89bb668163edb9613871de7c6&#10;Build info: version: '4.0.0', revision: '3a21814679'&#10;System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchWindowException">no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81c934e89bb668163edb9613871de7c6, getCurrentWindowHandle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 81c934e89bb668163edb9613871de7c6
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: unknown</error><system-err>no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81c934e89bb668163edb9613871de7c6, getCurrentWindowHandle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 81c934e89bb668163edb9613871de7c6
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: unknown&#13;
+StepDefinition.IT_Admin_CRUD_positive_scenarios.partner_url(IT_Admin_CRUD_positive_scenarios.java:288)&#13;
+✽.partner url(file:///C:/Users/AJIT%20SINGH%20PAWAR/OneDrive/Desktop/automation/Enterprice-superadmin/src/main/resources/Feature/IT_Admin_CRUD_positive_scenarios.feature:33)&#13;
+</system-err></testcase><testcase name="validate that ITAdmin able to add lob"><error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=103.0.5060.134)&#10;Build info: version: '4.0.0', revision: '3a21814679'&#10;System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [81c934e89bb668163edb9613871de7c6, findElement {using=xpath, value=//*[@id=&quot;root&quot;]/div/div[1]/div/div/div[2]/ul/li[2]/button/span[1]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 81c934e89bb668163edb9613871de7c6&#10;Build info: version: '4.0.0', revision: '3a21814679'&#10;System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchWindowException">no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81c934e89bb668163edb9613871de7c6, findElement {using=xpath, value=//*[@id="root"]/div/div[1]/div/div/div[2]/ul/li[2]/button/span[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 81c934e89bb668163edb9613871de7c6
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: unknown</error><system-err>no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81c934e89bb668163edb9613871de7c6, findElement {using=xpath, value=//*[@id="root"]/div/div[1]/div/div/div[2]/ul/li[2]/button/span[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 81c934e89bb668163edb9613871de7c6
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: unknown&#13;
+Reusable_Functions.Generic_function.click(Generic_function.java:313)&#13;
+StepDefinition.IT_Admin_CRUD_positive_scenarios.IT_admin_clicks_on_LOB_tab(IT_Admin_CRUD_positive_scenarios.java:340)&#13;
+✽.IT admin clicks on LOB tab(file:///C:/Users/AJIT%20SINGH%20PAWAR/OneDrive/Desktop/automation/Enterprice-superadmin/src/main/resources/Feature/IT_Admin_CRUD_positive_scenarios.feature:38)&#13;
+</system-err></testcase><testcase name="validate that ITAdmin able to edit lob"><error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=103.0.5060.134)&#10;Build info: version: '4.0.0', revision: '3a21814679'&#10;System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [81c934e89bb668163edb9613871de7c6, findElement {using=xpath, value=//*[@id=&quot;outlined-adornment-amount&quot;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 81c934e89bb668163edb9613871de7c6&#10;Build info: version: '4.0.0', revision: '3a21814679'&#10;System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchWindowException">no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81c934e89bb668163edb9613871de7c6, findElement {using=xpath, value=//*[@id="outlined-adornment-amount"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 81c934e89bb668163edb9613871de7c6
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: unknown</error><system-err>no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81c934e89bb668163edb9613871de7c6, findElement {using=xpath, value=//*[@id="outlined-adornment-amount"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 81c934e89bb668163edb9613871de7c6
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: unknown&#13;
+StepDefinition.IT_Admin_CRUD_positive_scenarios.IT_admin_clicks_on_an_lob(IT_Admin_CRUD_positive_scenarios.java:450)&#13;
+✽.IT admin clicks on an lob(file:///C:/Users/AJIT%20SINGH%20PAWAR/OneDrive/Desktop/automation/Enterprice-superadmin/src/main/resources/Feature/IT_Admin_CRUD_positive_scenarios.feature:46)&#13;
+</system-err></testcase><testcase name="validate that ITAdmin able to add configurations manual"><error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=103.0.5060.134)&#10;Build info: version: '4.0.0', revision: '3a21814679'&#10;System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [81c934e89bb668163edb9613871de7c6, findElement {using=xpath, value=//*[@id=&quot;outlined-adornment-amount&quot;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 81c934e89bb668163edb9613871de7c6&#10;Build info: version: '4.0.0', revision: '3a21814679'&#10;System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchWindowException">no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81c934e89bb668163edb9613871de7c6, findElement {using=xpath, value=//*[@id="outlined-adornment-amount"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 81c934e89bb668163edb9613871de7c6
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: unknown</error><system-err>no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81c934e89bb668163edb9613871de7c6, findElement {using=xpath, value=//*[@id="outlined-adornment-amount"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 81c934e89bb668163edb9613871de7c6
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: unknown&#13;
+StepDefinition.IT_Admin_CRUD_positive_scenarios.IT_admin_enters_to_an_lob(IT_Admin_CRUD_positive_scenarios.java:530)&#13;
+✽.IT admin enters to an lob(file:///C:/Users/AJIT%20SINGH%20PAWAR/OneDrive/Desktop/automation/Enterprice-superadmin/src/main/resources/Feature/IT_Admin_CRUD_positive_scenarios.feature:54)&#13;
+</system-err></testcase><testcase name="validate that ITadmin able to edit manual config"><error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=103.0.5060.134)&#10;Build info: version: '4.0.0', revision: '3a21814679'&#10;System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [81c934e89bb668163edb9613871de7c6, findElement {using=xpath, value=//div[2]/div/div[4]/div[1]/button}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 81c934e89bb668163edb9613871de7c6&#10;Build info: version: '4.0.0', revision: '3a21814679'&#10;System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchWindowException">no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81c934e89bb668163edb9613871de7c6, findElement {using=xpath, value=//div[2]/div/div[4]/div[1]/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 81c934e89bb668163edb9613871de7c6
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: unknown</error><system-err>no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81c934e89bb668163edb9613871de7c6, findElement {using=xpath, value=//div[2]/div/div[4]/div[1]/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 81c934e89bb668163edb9613871de7c6
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: unknown&#13;
+Reusable_Functions.Generic_function.click(Generic_function.java:313)&#13;
+StepDefinition.IT_Admin_CRUD_positive_scenarios.clicks_on_edit_config_button(IT_Admin_CRUD_positive_scenarios.java:678)&#13;
+✽.clicks on edit config button(file:///C:/Users/AJIT%20SINGH%20PAWAR/OneDrive/Desktop/automation/Enterprice-superadmin/src/main/resources/Feature/IT_Admin_CRUD_positive_scenarios.feature:65)&#13;
+</system-err></testcase><testcase name="validate that IT admin able to add file sensed data"><error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=103.0.5060.134)&#10;Build info: version: '4.0.0', revision: '3a21814679'&#10;System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [81c934e89bb668163edb9613871de7c6, executeScript {script=window.scrollBy, args=[]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 81c934e89bb668163edb9613871de7c6&#10;Build info: version: '4.0.0', revision: '3a21814679'&#10;System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchWindowException">no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81c934e89bb668163edb9613871de7c6, executeScript {script=window.scrollBy, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 81c934e89bb668163edb9613871de7c6
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: unknown</error><system-err>no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81c934e89bb668163edb9613871de7c6, executeScript {script=window.scrollBy, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 81c934e89bb668163edb9613871de7c6
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: unknown&#13;
+StepDefinition.IT_Admin_CRUD_positive_scenarios.It_admin_clicks_on_add_new_config_on_file_sensed(IT_Admin_CRUD_positive_scenarios.java:721)&#13;
+✽.IT admin clicks on add new config on file sensed(file:///C:/Users/AJIT%20SINGH%20PAWAR/OneDrive/Desktop/automation/Enterprice-superadmin/src/main/resources/Feature/IT_Admin_CRUD_positive_scenarios.feature:72)&#13;
+</system-err></testcase><testcase name="validate that it admin able to edit file sensed data"><error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=103.0.5060.134)&#10;Build info: version: '4.0.0', revision: '3a21814679'&#10;System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [81c934e89bb668163edb9613871de7c6, executeScript {script=window.scrollBy, args=[]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 81c934e89bb668163edb9613871de7c6&#10;Build info: version: '4.0.0', revision: '3a21814679'&#10;System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchWindowException">no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81c934e89bb668163edb9613871de7c6, executeScript {script=window.scrollBy, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 81c934e89bb668163edb9613871de7c6
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: unknown</error><system-err>no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81c934e89bb668163edb9613871de7c6, executeScript {script=window.scrollBy, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 81c934e89bb668163edb9613871de7c6
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: unknown&#13;
+StepDefinition.IT_Admin_CRUD_positive_scenarios.It_admin_clicks_on_edit_config_on_file_sensed_data(IT_Admin_CRUD_positive_scenarios.java:788)&#13;
+✽.IT admin clicks on edit config on file sensed data(file:///C:/Users/AJIT%20SINGH%20PAWAR/OneDrive/Desktop/automation/Enterprice-superadmin/src/main/resources/Feature/IT_Admin_CRUD_positive_scenarios.feature:78)&#13;
+</system-err></testcase><testcase name="validate that ITAdmin able to add configurations time based"><error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=103.0.5060.134)&#10;Build info: version: '4.0.0', revision: '3a21814679'&#10;System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [81c934e89bb668163edb9613871de7c6, executeScript {script=window.scrollBy, args=[]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 81c934e89bb668163edb9613871de7c6&#10;Build info: version: '4.0.0', revision: '3a21814679'&#10;System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchWindowException">no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81c934e89bb668163edb9613871de7c6, executeScript {script=window.scrollBy, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 81c934e89bb668163edb9613871de7c6
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: unknown</error><system-err>no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81c934e89bb668163edb9613871de7c6, executeScript {script=window.scrollBy, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 81c934e89bb668163edb9613871de7c6
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: unknown&#13;
+StepDefinition.IT_Admin_CRUD_positive_scenarios.IT_admin_clicks_on_add_new_config_time_based(IT_Admin_CRUD_positive_scenarios.java:836)&#13;
+✽.IT admin clicks on add new config time based(file:///C:/Users/AJIT%20SINGH%20PAWAR/OneDrive/Desktop/automation/Enterprice-superadmin/src/main/resources/Feature/IT_Admin_CRUD_positive_scenarios.feature:85)&#13;
+</system-err></testcase><testcase name="validate that IT admin able to edit time based"><error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=103.0.5060.134)&#10;Build info: version: '4.0.0', revision: '3a21814679'&#10;System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [81c934e89bb668163edb9613871de7c6, findElement {using=xpath, value=//*[@id=&quot;root&quot;]/div/div[3]/div[2]/div/div[6]/div[1]/button/span[1]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 81c934e89bb668163edb9613871de7c6&#10;Build info: version: '4.0.0', revision: '3a21814679'&#10;System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchWindowException">no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81c934e89bb668163edb9613871de7c6, findElement {using=xpath, value=//*[@id="root"]/div/div[3]/div[2]/div/div[6]/div[1]/button/span[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 81c934e89bb668163edb9613871de7c6
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: unknown</error><system-err>no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81c934e89bb668163edb9613871de7c6, findElement {using=xpath, value=//*[@id="root"]/div/div[3]/div[2]/div/div[6]/div[1]/button/span[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 81c934e89bb668163edb9613871de7c6
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: unknown&#13;
+Reusable_Functions.Generic_function.click(Generic_function.java:313)&#13;
+StepDefinition.IT_Admin_CRUD_positive_scenarios.IT_admin_clicks_on_edit_config_of_time_based(IT_Admin_CRUD_positive_scenarios.java:937)&#13;
+✽.IT admin clicks on edit config of time based(file:///C:/Users/AJIT%20SINGH%20PAWAR/OneDrive/Desktop/automation/Enterprice-superadmin/src/main/resources/Feature/IT_Admin_CRUD_positive_scenarios.feature:91)&#13;
+</system-err></testcase><testcase name="validate that ITAdmin able to upload price list"><error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=103.0.5060.134)&#10;Build info: version: '4.0.0', revision: '3a21814679'&#10;System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [81c934e89bb668163edb9613871de7c6, findElement {using=xpath, value=//*[contains(text(),'Add Price List')]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 81c934e89bb668163edb9613871de7c6&#10;Build info: version: '4.0.0', revision: '3a21814679'&#10;System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchWindowException">no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81c934e89bb668163edb9613871de7c6, findElement {using=xpath, value=//*[contains(text(),'Add Price List')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 81c934e89bb668163edb9613871de7c6
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: unknown</error><system-err>no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81c934e89bb668163edb9613871de7c6, findElement {using=xpath, value=//*[contains(text(),'Add Price List')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 81c934e89bb668163edb9613871de7c6
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: unknown&#13;
+StepDefinition.IT_Admin_CRUD_positive_scenarios.IT_admin_clicks_on_add_price_list_button(IT_Admin_CRUD_positive_scenarios.java:998)&#13;
+✽.IT admin clicks on add price list button(file:///C:/Users/AJIT%20SINGH%20PAWAR/OneDrive/Desktop/automation/Enterprice-superadmin/src/main/resources/Feature/IT_Admin_CRUD_positive_scenarios.feature:97)&#13;
+</system-err></testcase><testcase name="validate it admin able to download price list"><error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=103.0.5060.134)&#10;Build info: version: '4.0.0', revision: '3a21814679'&#10;System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [81c934e89bb668163edb9613871de7c6, findElement {using=xpath, value=//*[@id=&quot;root&quot;]/div/div[3]/div[2]/div/div[7]/div[2]/div/div/div/div/div[1]/div[2]/div[3]/div[2]/div/div/div/div[1]/div/span}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 81c934e89bb668163edb9613871de7c6&#10;Build info: version: '4.0.0', revision: '3a21814679'&#10;System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchWindowException">no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81c934e89bb668163edb9613871de7c6, findElement {using=xpath, value=//*[@id="root"]/div/div[3]/div[2]/div/div[7]/div[2]/div/div/div/div/div[1]/div[2]/div[3]/div[2]/div/div/div/div[1]/div/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 81c934e89bb668163edb9613871de7c6
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: unknown</error><system-err>no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81c934e89bb668163edb9613871de7c6, findElement {using=xpath, value=//*[@id="root"]/div/div[3]/div[2]/div/div[7]/div[2]/div/div/div/div/div[1]/div[2]/div[3]/div[2]/div/div/div/div[1]/div/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\AJITSI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 81c934e89bb668163edb9613871de7c6
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-2EM4GPO', ip: '10.88.23.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: unknown&#13;
+Reusable_Functions.Generic_function.click(Generic_function.java:313)&#13;
+StepDefinition.IT_Admin_CRUD_positive_scenarios.IT_admin_clicks_on_a_price_list_file(IT_Admin_CRUD_positive_scenarios.java:1107)&#13;
+✽.IT admin clicks on a price list file(file:///C:/Users/AJIT%20SINGH%20PAWAR/OneDrive/Desktop/automation/Enterprice-superadmin/src/main/resources/Feature/IT_Admin_CRUD_positive_scenarios.feature:105)&#13;
+</system-err></testcase></testsuite>

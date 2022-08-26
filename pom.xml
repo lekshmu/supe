@@ -217,7 +217,7 @@
                             <goal>aggregate</goal>
                         </goals>
                         <configuration>
-                            <outputDirectory>C:\Users\AJIT SINGH PAWAR\OneDrive\Desktop\automation\Enterprice-superadmin\target\reporttt</outputDirectory>
+                            <outputDirectory>C:\Users\AJIT SINGH PAWAR\OneDrive\Desktop\supe\target\reporttt</outputDirectory>
                         </configuration>
                     </execution>
                 </executions>

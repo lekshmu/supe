@@ -7,7 +7,8 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         plugin = {"pretty"},
-        features = {"C://Users//AJIT SINGH PAWAR//OneDrive//Desktop//automation//Enterprice-superadmin//src//main//resources//Feature"},
+        features = {"C://Users//AJIT SINGH PAWAR//OneDrive//Desktop//supe//src//main//resources//Feature"
+        },
         glue = {"StepDefinition"}
 )
 

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="3" name="check the working of compliaince manager sandbox positive scenarios" skipped="0" tests="14" time="185.78" timestamp="2022-08-26 02:38:03"><testcase name="Verify compliance manager able to click on the login button"/><testcase name="Verify compliance manager can successfully login"/><testcase name="Verify sandbox is working for pending applications"/><testcase name="compliance manager authorize the api key"/><testcase name="compliance manager checking the encounter resource"><failure message="expected:&lt;401&#10;Undocumented&gt; but was:&lt;null&gt;" type="java.lang.AssertionError">expected:&lt;401
+Undocumented&gt; but was:&lt;null&gt;</failure><system-err>expected:&lt;401
+Undocumented&gt; but was:&lt;null&gt;&#13;
+StepDefinition.S10_ComplianceManager_Sandbox_PositiveScenario.verify_the_encounter_sandbox_success_msg(S10_ComplianceManager_Sandbox_PositiveScenario.java:325)&#13;
+✽.verify the encounter sandbox success msg(file:///C:/Users/AJIT%20SINGH%20PAWAR/OneDrive/Desktop/supe/src/main/resources/Feature/S10_ComplianceManager_Sandbox_PositiveScenario.feature:32)&#13;
+</system-err></testcase><testcase name="compliance manager check the immunization resource"><failure message="expected:&lt;401&#10;Undocumented&gt; but was:&lt;null&gt;" type="java.lang.AssertionError">expected:&lt;401
+Undocumented&gt; but was:&lt;null&gt;</failure><system-err>expected:&lt;401
+Undocumented&gt; but was:&lt;null&gt;&#13;
+StepDefinition.S10_ComplianceManager_Sandbox_PositiveScenario.verify_for_immunization_response(S10_ComplianceManager_Sandbox_PositiveScenario.java:387)&#13;
+✽.verify for immunization response(file:///C:/Users/AJIT%20SINGH%20PAWAR/OneDrive/Desktop/supe/src/main/resources/Feature/S10_ComplianceManager_Sandbox_PositiveScenario.feature:39)&#13;
+</system-err></testcase><testcase name="Verify sanbox is working in the provider directory"/><testcase name="Verify compliance manager getting success responce in endpoint resource"><failure message="expected:&lt;401&#10;Undocumented&gt; but was:&lt;null&gt;" type="java.lang.AssertionError">expected:&lt;401
+Undocumented&gt; but was:&lt;null&gt;</failure><system-err>expected:&lt;401
+Undocumented&gt; but was:&lt;null&gt;&#13;
+StepDefinition.S10_ComplianceManager_Sandbox_PositiveScenario.check_the_sandbox_response(S10_ComplianceManager_Sandbox_PositiveScenario.java:509)&#13;
+✽.check the sandbox response(file:///C:/Users/AJIT%20SINGH%20PAWAR/OneDrive/Desktop/supe/src/main/resources/Feature/S10_ComplianceManager_Sandbox_PositiveScenario.feature:53)&#13;
+</system-err></testcase><testcase name="go back to the application approve and then check thesandbox"/><testcase name="Scenario"/><testcase name="checking cm scecond"/><testcase name="checking another patient cm api"/><testcase name="checking the complaince sandbox provider directory for approved applications"/><testcase name="checking cm provider directory with healthcareservice"/></testsuite>

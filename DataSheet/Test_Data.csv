@@ -173,7 +173,7 @@ internal_create_app_page,Create New Application
 internal_check_pending_first,Pending
 ,
 ,
-,
+Price_list_de,Price List Details
 internal_mail,swathi96455@gmail.com
 complaince_mail,lkn410921@gmail.com
 thirdparty_mail,lekshmiighjk122@gmail.com
@@ -185,7 +185,7 @@ appcreation_complaince_email,lekshmikrishna97@gmail.com
 appcreation_internal_email,ls5091078@gmail.com
 appcreation_complaince_pass,Password@123
 appcreation_internal_pass,Password@123
-,
+price_lob_title,LOBs
 third_party_negative_login_validation_msg,Invalid username or password.
 third_party_negative_invalid_email,abcd@gmail.com
 third_party_negative_invalid_pass,1234
@@ -206,5 +206,7 @@ pending_navigation,Applications
 com_page,View Members
 com_sand_landing_page,Patient Access
 we,It's time to take control of your healthcare!
-,
+int_pricelist_login_password,Password@123
 sandbox_success_responce,200
+int_pricelist_login_email,globalinternal787@gmail.com
+,
